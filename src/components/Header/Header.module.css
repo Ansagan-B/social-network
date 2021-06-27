@@ -1,0 +1,20 @@
+.header {
+    /* background-color: rgb(236, 181, 218); */
+    background-image: url('https://rhodechild.files.wordpress.com/2012/05/header_background1-1.png');
+    grid-area: h;
+    background-repeat: repeat;
+    background-size: 100% 300px;
+  }
+  
+  .header img {
+    width: 80px;
+  }
+
+  .loginBlock {
+      float: right;
+      margin: 15px;
+  }
+
+  .loginBlock a {
+      color: white;
+  }

@@ -1,0 +1,18 @@
+.nav {
+  grid-area: n;
+  width: 150px;
+  background-color: rgb(236, 181, 218);
+  block-size: 300px 200px;
+  padding: 20px;
+}
+
+.item a {
+  color: white;
+  font-style: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.item a.activeLink {
+  color: rgb(151, 61, 235);
+}

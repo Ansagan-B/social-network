@@ -1,0 +1,42 @@
+img {
+    width: 80%;
+}
+
+.dialogs {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems { 
+    padding: 10px;
+    color: white;
+}
+
+.dialogsItems .active {
+    color: gold;
+}
+
+/* .dialog {
+
+} */
+ 
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+    color: white;
+}
+
+.profileImg {
+    margin: 10px;
+}
+
+.name {
+    text-align: center;
+}
+
+textarea {
+    margin-top: 10px;
+}
